@@ -43,8 +43,7 @@ MONGO_URI=your_mongo_uri
 
 To compile TypeScript and start the bot:
 ```
-npm run build     # Compiles TypeScript to JavaScript
-npm start         # Starts the bot using compiled files
+npm start         # Compiles TypeScript to JavaScript and starts the bot using compiled files
 ```
 
 ## 📝 License
