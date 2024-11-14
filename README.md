@@ -49,4 +49,4 @@ npm start         # Starts the bot using compiled files
 
 ## 📝 License
 
-This project is under license. See [LICENSE](LICENSE.md) for more details.
+This project is under license. See [LICENSE](LICENSE) for more details.
