@@ -1,0 +1,18 @@
+import { Bot } from "../../structures/Client";
+import {
+    EmbedBuilder,
+    Colors,
+    ActionRowBuilder,
+    ModalSubmitInteraction
+} from "discord.js";
+
+const Modal = {
+    data: {
+        name: ""
+    },
+    async execute(interaction: ModalSubmitInteraction, client: Bot) {
+    }
+};
+
+const { data, execute } = Modal;
+export { data, execute };

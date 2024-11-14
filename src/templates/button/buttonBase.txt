@@ -1,0 +1,21 @@
+import { Bot } from "../../structures/Client";
+import {
+    EmbedBuilder,
+    Colors,
+    ActionRowBuilder,
+    ButtonBuilder,
+    ButtonStyle,
+    ButtonInteraction
+} from "discord.js";
+
+const Button = {
+    data: {
+        name: ""
+    },
+    async execute(interaction: ButtonInteraction, client: Bot) {
+        
+    }
+};
+
+const { data, execute } = Button;
+export { data, execute };

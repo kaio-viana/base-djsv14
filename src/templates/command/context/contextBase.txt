@@ -1,0 +1,20 @@
+import { Bot } from "../../structures/Client";
+import {
+    ContextMenuCommandInteraction,
+    ContextMenuCommandBuilder,
+    ApplicationCommandType,
+    EmbedBuilder,
+    type ColorResolvable
+} from "discord.js";
+
+const ContextCommand = {
+    data: new ContextMenuCommandBuilder()
+        .setName("")
+        .setType(ApplicationCommandType.User),
+    async execute(interaction: ContextMenuCommandInteraction, client: Bot) {
+        
+    }
+};
+
+const { data, execute } = ContextCommand;
+export { data, execute };

@@ -1,0 +1,19 @@
+import { Bot } from "../../../structures/Client";
+import { 
+    ChatInputCommandInteraction, 
+    SlashCommandBuilder, 
+    EmbedBuilder, 
+    Colors
+} from "discord.js";
+
+const command = {
+    data: new SlashCommandBuilder()
+        .setName("")
+        .setDescription(""),
+    async execute(interaction: ChatInputCommandInteraction, client: Bot) {
+        
+    }
+};
+
+const { data, execute } = command;
+export { data, execute };

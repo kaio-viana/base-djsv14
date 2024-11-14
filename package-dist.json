@@ -1,0 +1,16 @@
+{
+  "name": "base-djsv14",
+  "type": "commonjs",
+  "main": "index.js",
+  "author": "@kahxyz1",
+  "scripts": {
+    "start": "node ./index.js"
+  },
+  "dependencies": {
+    "colors": "latest",
+    "discord.js": "latest",
+    "dotenv": "latest",
+    "mongoose": "latest",
+    "node-vibrant": "latest"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "base-djsv14",
+  "type": "commonjs",
+  "main": "index.js",
+  "author": "@kahxyz1",
+  "scripts": {
+    "clear": "rimraf ./dist",
+    "build": "tsc",
+    "pre": "node ./dist/index.js",
+    "package": "copyfiles package-dist.json dist/ && mv dist/package-dist.json dist/package.json",
+    "gitignore": "copyfiles .gitignore dist/",
+    "env": "copyfiles .env dist/",
+    "start": "bun run clear && bun run package && bun run package && bun run env && bun run gitignore && bun run build && bun run pre",
+    "test": "bun ./index.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "rimraf": "latest",
+    "copyfiles": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "latest"
+  },
+  "dependencies": {
+    "colors": "latest",
+    "discord.js": "latest",
+    "dotenv": "latest",
+    "mongoose": "latest",
+    "node-vibrant": "latest"
+  }
+}

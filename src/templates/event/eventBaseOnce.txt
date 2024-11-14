@@ -1,0 +1,13 @@
+import { Bot } from "../../structures/Client";
+import { Events } from "discord.js";
+
+const Event = {
+    name: Events.ClientReady,
+    once: true,
+    async execute(client: Bot) {
+
+    }
+};
+
+const { name, execute } = Event;
+export { name, execute };

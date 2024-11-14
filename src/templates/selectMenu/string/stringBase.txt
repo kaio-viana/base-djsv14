@@ -1,0 +1,20 @@
+import { Bot } from "../../../structures/Client";
+import {
+    EmbedBuilder,
+    Colors,
+    ActionRowBuilder,
+    StringSelectMenuBuilder,
+    StringSelectMenuInteraction,
+} from "discord.js";
+
+const StringMenu = {
+    data: {
+        name: ""
+    },
+    async execute(interaction: StringSelectMenuInteraction, client: Bot) {
+        
+    }
+};
+
+const { data, execute } = StringMenu;
+export { data, execute };
