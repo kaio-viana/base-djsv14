@@ -16,6 +16,22 @@
 
 &nbsp;
 
+## ✨ Features
+
+- **Slash and Context Commands Support**: Supports slash and context commands, buttons, modals and much more.
+- **Event Handling**: Organized events for better readability.
+- **TypeScript Typing**: Full TypeScript support with interfaces and types.
+- **Templates Included**: All templates of commands, buttons, modals, and more are included.
+
+&nbsp;
+
+## 🤖 Commands
+
+- `/ping`: Basic command to verify the bot's responsiveness.
+#### You can add more commands to the src/commands directory, and they will be automatically loaded.
+
+&nbsp;
+
 ## 💻 Getting Started
 
 ### Prerequisites
@@ -42,22 +58,6 @@ BOT_TOKEN=your_bot_token
 CLIENT_ID=your_bot_client_id
 MONGO_URI=your_mongo_uri
 ```
-
-&nbsp;
- 
-## ✨ Features
-
-- **Slash and Context Commands Support**: Supports slash and context commands, buttons, modals and much more.
-- **Event Handling**: Organized events for better readability.
-- **TypeScript Typing**: Full TypeScript support with interfaces and types.
-- **Templates Included**: All templates of commands, buttons, modals, and more are included.
-
-&nbsp;
-
-## 🤖 Commands
-
-- `/ping`: Basic command to verify the bot's responsiveness.
-#### You can add more commands to the src/commands directory, and they will be automatically loaded.
 
 &nbsp;
 
