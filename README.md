@@ -6,7 +6,6 @@
 
 <div align="center" style="margin-bottom:100px">
   <img width=20% align="center" src="https://img.shields.io/github/languages/top/kaio-viana/base-djsv14?style=for-the-badge&labelColor=%235865f2&color=%235865f2" />
-  <img width=17.7% align="center" src="https://img.shields.io/github/license/kaio-viana/base-djsv14?style=for-the-badge&labelColor=%235865f2&color=%235865f2" />
  </div>
 
  &nbsp;
