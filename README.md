@@ -18,7 +18,7 @@
 
 ## ✨ Features
 
-- **Slash and Context Commands Support**: Supports slash and context commands, buttons, modals and much more.
+- **Slash and Context Commands Support**: Supports slash commands, buttons, modals and much more.
 - **Event Handling**: Organized events for better readability.
 - **TypeScript Typing**: Full TypeScript support with interfaces and types.
 - **Templates Included**: All templates of commands, buttons, modals, and more are included.
